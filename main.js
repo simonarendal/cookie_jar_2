@@ -20,8 +20,8 @@ var client;
 
 // Uncomment one of the three following lines to choose your public broker
 // var MQTTBrokerUrl = 'ws://iot.eclipse.org:80/ws';
-var MQTTBrokerUrl = 'ws://test.mosquitto.org:8080/ws';
-// var MQTTBrokerUrl = 'ws://broker.hivemq.com:8000';
+// var MQTTBrokerUrl = 'ws://test.mosquitto.org:8080/ws';
+var MQTTBrokerUrl = 'ws://broker.hivemq.com:8000';
 
 // Topics can be thought of like "chat rooms", only those listening to the correct topic get the message
 // Make sure that this is very unique, so you only get your own messages
