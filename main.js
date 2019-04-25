@@ -27,7 +27,7 @@ var MQTTBrokerUrl = 'ws://broker.hivemq.com:8000';
 // Make sure that this is very unique, so you only get your own messages
 // I.e. don't name it 'test', but instead 'JesperHyldahlFoghTest'
 // 
-var basicTopic = 'Cookie_jar_2'; // CHANGE THIS TO SOMETHING UNIQUE TO YOUR PROJECT
+var basicTopic = 'Cookie_jar'; // CHANGE THIS TO SOMETHING UNIQUE TO YOUR PROJECT
 
 // You can define as many topics as you want and use them for different things
 // Remember to subscribe to them in .on('connect')!
